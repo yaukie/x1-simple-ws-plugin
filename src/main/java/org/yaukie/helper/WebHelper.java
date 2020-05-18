@@ -15,7 +15,7 @@ import org.yaukie.util.PropsUtil;
 **/
 public final class WebHelper {
 	
-	private static final Properties PROP = PropsUtil.loadProps(WebApiConstant.CONFIG_FILE);
+	private static    Properties PROP = PropsUtil.loadProps(WebApiConstant.CONFIG_FILE);
 	
 	/**
 	 * 获取应用基础包名

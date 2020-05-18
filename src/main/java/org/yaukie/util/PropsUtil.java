@@ -113,7 +113,7 @@ public class PropsUtil {
 	public static int getInt(Properties props,String key,int defaultValue)
 	{
 		int value = defaultValue;
-		if(props.contains(key))
+		if(props.containsKey(key))
 		{
 			value =CastUtil.castInt(props.getProperty(key));
 		}
@@ -144,7 +144,7 @@ public class PropsUtil {
 		
 		boolean v = defaultValue;
 		
-		if(props.contains(key))
+		if(props.containsKey(key))
 		{
 			v = CastUtil.castBoolean(props.getProperty(key));
 		}

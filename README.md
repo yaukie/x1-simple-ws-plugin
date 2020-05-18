@@ -111,7 +111,7 @@
 ## 使用方法  
     -- 1、检出地址：http://open.inspur.com/yuenbin/x1-simple-ws-plugin.git  
     -- 2、pom引用（默认maven项目），将该项目的maven三维坐标（groupId,artifactId,version）引入到目标项目中  
-    -- 3、在目标项目，请创建一个web.properties文件，在这里至少指定一个参数：x1.app.base.package=，这个参数   
+    -- 3、在目标项目，请创建一个x1.properties文件，在这里至少指定一个参数：x1.app.base.package=，这个参数   
     指定您编写的webservice服务，rest服务接口类所在的目录，方便插件去加载，发布服务，这样您就可以启动项目  
     使用所发布的服务了。  
     -- 4、其他配置说明：  

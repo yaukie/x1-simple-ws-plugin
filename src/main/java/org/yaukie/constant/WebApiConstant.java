@@ -9,7 +9,7 @@ package org.yaukie.constant;
 **/
 public interface WebApiConstant {
 
-	String CONFIG_FILE = "web.properties";
+	String CONFIG_FILE = "x1.properties";
 	
 	String APP_PACKAGE="x1.app.base.package";//应用的基础包名
 
